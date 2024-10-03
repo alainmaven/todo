@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import TodoInput from "./components/TodoInput";
 import TodoList from "./components/TodoList";
-import { useToDoContext } from "./context/TodoContext";
+import { useToDoContext } from "./context/ToDoContext";
 
 function App() {
 

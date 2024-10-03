@@ -1,4 +1,4 @@
-import { useToDoContext } from "../context/TodoContext";
+import { useToDoContext } from "../context/ToDoContext";
 import TodoCard from "./TodoCard";
 
 const TodoList = () => {

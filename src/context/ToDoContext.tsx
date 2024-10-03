@@ -34,7 +34,7 @@ export const ToDoProvider = ({ children }: PropsWithChildren) => {
   }
 
   const handleDelete = (index: number) => {
-    const newTodo: Array<string> = todos.filter((todo, todoIndex) => index !== todoIndex);
+    const newTodo: Array<string> = todos.filter((_, todoIndex) => index !== todoIndex);
     persistData(newTodo);
     setTodos(newTodo);
   }
